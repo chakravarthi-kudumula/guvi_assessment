@@ -1,0 +1,81 @@
+/* General Styles */
+
+body {
+	background-image: url("/assets/images/log2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 2rem;
+    color: #aef6e6;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 2rem;
+	border: 0px solid #ddd;
+	border-radius: 5px;
+	box-shadow: 0px 0px 0px #ddd;
+}
+.form-group {
+	margin-bottom: 1rem;
+}
+
+label {
+	display: block;
+	margin-bottom: 0.5rem;
+    color: #ffb2a5;
+}
+
+input[type="email"], input[type="password"] {
+	display: block;
+	width: 100%;
+	padding: 0.5rem;
+	font-size: 1rem;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+button[type="submit"] {
+	margin-top: 1rem;
+	padding: 0.5rem 1rem;
+	background-color: black;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	font-size: 1rem;
+	cursor: pointer;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+	background-color: #444;
+}
+
+.error-message {
+	color: red;
+	font-size: 0.8rem;
+	margin-top: 0.5rem;
+}
+
+p {
+	margin-top: 1rem;
+	text-align: center;
+    color: white;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+    color: #c4a5ff;
+}
+
+a:hover {
+	color: #444;
+}

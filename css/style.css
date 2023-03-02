@@ -1,0 +1,129 @@
+/* General Styles */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background-image: url("assets/images/music.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+/* Header */
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+	background-color: black;
+	color: #fff;
+}
+
+.logo h1 {
+	margin: 0;
+	font-size: 1.5rem;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	margin: 0 1rem;
+}
+
+nav ul li a {
+	font-size: 1.2rem;
+}
+
+.cta-container {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.login-btn, .signup-btn {
+	margin: 0.5rem;
+	padding: 0.5rem 1rem;
+	background-color: #fff;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.2rem;
+	cursor: pointer;
+}
+
+.login-btn:hover, .signup-btn:hover {
+	background-color: #ddd;
+}
+
+/* Hero Section */
+
+.hero-section {
+	position: relative;
+	background-image: url("/music.jpeg");
+	background-size: cover;
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+	background-repeat: no-repeat;
+}
+
+.hero-section h2 {
+	font-size: 3rem;
+	margin-bottom: 2rem;
+	color: black;
+}
+
+.listen-btn {
+	margin-top: 2rem;
+	padding: 1rem 2rem;
+	background-color: #fff;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+
+.listen-btn:hover {
+	background-color: #ddd;
+}
+
+/* Footer */
+
+footer {
+	text-align: center;
+	background-color: black;
+	color: #fff;
+	padding: 1rem;
+}
+#foot {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+button {
+	height: 30px;
+	width: 100px;
+	margin-right: 30px;
+	margin-bottom: 40px;
+}
+#butt {
+	height: 35px;
+	width: 250px
+}
