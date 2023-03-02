@@ -4,12 +4,37 @@
 <img src="assets/images/index.png">
 <img src="assets/images/register.png">
 <img src="assets/images/login.png">
-This  explains how to create a MySQL database and registration table using PhpMyAdmin, a free tool for managing MySQL databases. To follow along, you will need to have XAMPP installed on your Windows machine. XAMPP is a free web server solution stack that includes Apache, MySQL, PHP, and Perl.
 
-To start, launch the XAMPP Control Panel by double-clicking on the xampp-control.exe file in the installation location. Start Apache and MySQL by clicking on the Start button next to their names in the Control Panel. Then, open PhpMyAdmin by navigating to http://localhost/phpmyadmin/ in your web browser.
+Here is a step by step procedure of this project :
 
-Next, create a new database by clicking on the New button and entering a name for your database in the Database name field. Select utf8_general_ci as the collation and leave the other settings as they are. Click on the Create button to create your new database.
+Install XAMPP: Download and install XAMPP from the Apache Friends website. XAMPP is a software package that includes Apache, MySQL, and PHP, which are required for running a web server and connecting to a database.
 
-Once your database is created, select it in the left-hand sidebar and click on the New button to create a new table. Name your table "registration" and set the number of columns to 7. Define the columns of your table in the Structure tab using the details provided in the guide. Click on the Save button to save your table.
+Start the XAMPP server: After installing XAMPP, start the XAMPP Control Panel and start the Apache and MySQL services.
 
-To add data to your table, open the register.html file at http://localhost/folder_name/register.html. Finally, you can review your project by comparing your registration table to the image provided in this project.
+Create a new database: Open PHPMYADMIN in a web browser by typing "localhost/phpmyadmin" in the address bar. Click on the "New" button to create a new database.
+
+Create a table: In the newly created database, create a table with some columns. For example, a table named "users" with columns "id", "name", and "email".
+
+Create an HTML file: Create a new file named "index.html" in the htdocs folder of XAMPP. This folder is located in the XAMPP installation directory. Open the file in a text editor.
+
+Add HTML code: Add HTML code to the file. This code should include the basic structure of an HTML page, such as the HTML, head, and body tags. Add some text and images to the body of the page.
+
+Add CSS: Create a new file named "style.css" in the same folder as "index.html". Add some CSS code to this file to style the HTML page.
+
+Link CSS to HTML: Link the "style.css" file to the "index.html" file by adding a link tag in the head section of the HTML code.
+
+Add JavaScript: Create a new file named "script.js" in the same folder as "index.html". Add some JavaScript code to this file to add interactivity to the HTML page.
+
+Link JavaScript to HTML: Link the "script.js" file to the "index.html" file by adding a script tag at the end of the body section of the HTML code.
+
+Connect to the database: Create a new file named "connect.php" in the same folder as "index.html". Add PHP code to this file to connect to the MySQL database using the mysqli_connect function.
+
+Retrieve data from the database: Add more PHP code to the "connect.php" file to retrieve data from the "users" table using the mysqli_query function.
+
+Display data on HTML page: Add more HTML code to the "index.html" file to display the data retrieved from the database using PHP. Use PHP echo statements to output the data in HTML tags.
+
+Save and test: Save all the files and test the HTML page by opening it in a web browser. The page should display the text and images with the CSS styles applied and the JavaScript code executed. The data retrieved from the database should also be displayed on the page.
+
+
+
+
